@@ -1,6 +1,9 @@
 body {
-  font-family: "Al Fresco", sans-serif;
+  font-family: sans-serif;
   margin: 0px;
+  background-image: url(images/th\ \(3\).jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .container {
@@ -35,7 +38,7 @@ body {
 }
 
 .active-nav-link a {
-  color: black !important;
+  color: rgb(247, 246, 246) !important;
 }
 
 .nav-link-wrapper a {
@@ -49,7 +52,7 @@ body {
 }
 
 .nav-link-wrapper a:hover {
-  color: black;
+  color: rgb(243, 234, 234);
 }
 
 .portfolio-items-wrapper {
@@ -67,7 +70,6 @@ body {
   background-repeat: no-repeat;
   height: 350px;
   width: 100%;
-  background-color: black;
 }
 
 .img-text-wrapper {
@@ -81,13 +83,11 @@ body {
   text-align: center;
   padding-left: 100px;
   padding-right: 100px;
- 
 }
 
 .img-text-wrapper .subtitle {
   transition: 1s;
-  color: green;
-
+  color: transparent;
 }
 
 .image-blur {
@@ -96,14 +96,13 @@ body {
 }
 
 .img-text-wrapper:hover .subtitle {
-  
+  color: lightseagreen;
   font-weight: 600;
 }
 
 .logo-wrapper img {
   width: 50%;
   margin-bottom: 20px;
- 
 }
 
 .two-column-wrapper {
@@ -113,8 +112,6 @@ body {
 
 .profile-image-wrapper img {
   width: 100%;
-  
-
 }
 
 .profile-content-wrapper {
@@ -122,8 +119,11 @@ body {
   
 }
 
-
-
 .profile-content-wrapper h1 {
-
+  color: lightseagreen;
+}
+.sign-out-btn
+{
+   background-color: #0000;
+   color: #0000;
 }
